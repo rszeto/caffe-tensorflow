@@ -45,7 +45,7 @@ class DataSpec(object):
 
 def alexnet_spec(batch_size=500):
     '''Parameters used by AlexNet and its variants.'''
-    return DataSpec(batch_size=batch_size, scale_size=256, crop_size=227, isotropic=False)
+    return DataSpec(batch_size=batch_size, scale_size=227, crop_size=227, isotropic=False)
 
 
 def std_spec(batch_size, isotropic=True):
